@@ -1,0 +1,15 @@
+[package]
+name = "roomba-oi"
+version = "0.1.0"
+edition = "2021"
+rust-version = "1.70"
+description = "iRobot Roomba Open Interface (600 series / Create 2): sans-io command encoding, sensor packet decoding, stream framing and wheel-encoder odometry"
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/aclauer/roomba-oi"
+keywords = ["roomba", "irobot", "create2", "robotics", "serial"]
+categories = ["embedded", "hardware-support", "parser-implementations"]
+readme = "README.md"
+
+[dependencies]
+
+[dev-dependencies]
